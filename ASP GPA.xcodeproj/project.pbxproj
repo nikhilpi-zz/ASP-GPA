@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E836C81A15D42A410065D1A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E836C81915D42A410065D1A9 /* UIKit.framework */; };
+		E836C81C15D42A410065D1A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E836C81B15D42A410065D1A9 /* Foundation.framework */; };
+		E836C81E15D42A410065D1A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E836C81D15D42A410065D1A9 /* CoreGraphics.framework */; };
+		E836C82415D42A410065D1A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E836C82215D42A410065D1A9 /* InfoPlist.strings */; };
+		E836C82615D42A410065D1A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E836C82515D42A410065D1A9 /* main.m */; };
+		E836C82A15D42A410065D1A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E836C82915D42A410065D1A9 /* AppDelegate.m */; };
+		E836C82D15D42A410065D1A9 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E836C82B15D42A410065D1A9 /* MainStoryboard_iPhone.storyboard */; };
+		E836C83015D42A410065D1A9 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E836C82E15D42A410065D1A9 /* MainStoryboard_iPad.storyboard */; };
+		E836C83315D42A410065D1A9 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E836C83215D42A410065D1A9 /* MasterViewController.m */; };
+		E836C83615D42A410065D1A9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E836C83515D42A410065D1A9 /* DetailViewController.m */; };
+		E836C83E15D42A420065D1A9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E836C83D15D42A420065D1A9 /* SenTestingKit.framework */; };
+		E836C83F15D42A420065D1A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E836C81915D42A410065D1A9 /* UIKit.framework */; };
+		E836C84015D42A420065D1A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E836C81B15D42A410065D1A9 /* Foundation.framework */; };
+		E836C84815D42A420065D1A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E836C84615D42A420065D1A9 /* InfoPlist.strings */; };
+		E836C84B15D42A420065D1A9 /* ASP_GPATests.m in Sources */ = {isa = PBXBuildFile; fileRef = E836C84A15D42A420065D1A9 /* ASP_GPATests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E836C84115D42A420065D1A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E836C80C15D42A410065D1A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E836C81415D42A410065D1A9;
+			remoteInfo = "ASP GPA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E836C81515D42A410065D1A9 /* ASP GPA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASP GPA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E836C81915D42A410065D1A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E836C81B15D42A410065D1A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E836C81D15D42A410065D1A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E836C82115D42A410065D1A9 /* ASP GPA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASP GPA-Info.plist"; sourceTree = "<group>"; };
+		E836C82315D42A410065D1A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E836C82515D42A410065D1A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E836C82715D42A410065D1A9 /* ASP GPA-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASP GPA-Prefix.pch"; sourceTree = "<group>"; };
+		E836C82815D42A410065D1A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E836C82915D42A410065D1A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E836C82C15D42A410065D1A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		E836C82F15D42A410065D1A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		E836C83115D42A410065D1A9 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		E836C83215D42A410065D1A9 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		E836C83415D42A410065D1A9 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E836C83515D42A410065D1A9 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E836C83C15D42A420065D1A9 /* ASP GPATests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ASP GPATests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E836C83D15D42A420065D1A9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E836C84515D42A420065D1A9 /* ASP GPATests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASP GPATests-Info.plist"; sourceTree = "<group>"; };
+		E836C84715D42A420065D1A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E836C84915D42A420065D1A9 /* ASP_GPATests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASP_GPATests.h; sourceTree = "<group>"; };
+		E836C84A15D42A420065D1A9 /* ASP_GPATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASP_GPATests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E836C81215D42A410065D1A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E836C81A15D42A410065D1A9 /* UIKit.framework in Frameworks */,
+				E836C81C15D42A410065D1A9 /* Foundation.framework in Frameworks */,
+				E836C81E15D42A410065D1A9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E836C83815D42A420065D1A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E836C83E15D42A420065D1A9 /* SenTestingKit.framework in Frameworks */,
+				E836C83F15D42A420065D1A9 /* UIKit.framework in Frameworks */,
+				E836C84015D42A420065D1A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E836C80A15D42A410065D1A9 = {
+			isa = PBXGroup;
+			children = (
+				E836C81F15D42A410065D1A9 /* ASP GPA */,
+				E836C84315D42A420065D1A9 /* ASP GPATests */,
+				E836C81815D42A410065D1A9 /* Frameworks */,
+				E836C81615D42A410065D1A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E836C81615D42A410065D1A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E836C81515D42A410065D1A9 /* ASP GPA.app */,
+				E836C83C15D42A420065D1A9 /* ASP GPATests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E836C81815D42A410065D1A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E836C81915D42A410065D1A9 /* UIKit.framework */,
+				E836C81B15D42A410065D1A9 /* Foundation.framework */,
+				E836C81D15D42A410065D1A9 /* CoreGraphics.framework */,
+				E836C83D15D42A420065D1A9 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E836C81F15D42A410065D1A9 /* ASP GPA */ = {
+			isa = PBXGroup;
+			children = (
+				E836C82815D42A410065D1A9 /* AppDelegate.h */,
+				E836C82915D42A410065D1A9 /* AppDelegate.m */,
+				E836C82B15D42A410065D1A9 /* MainStoryboard_iPhone.storyboard */,
+				E836C82E15D42A410065D1A9 /* MainStoryboard_iPad.storyboard */,
+				E836C83115D42A410065D1A9 /* MasterViewController.h */,
+				E836C83215D42A410065D1A9 /* MasterViewController.m */,
+				E836C83415D42A410065D1A9 /* DetailViewController.h */,
+				E836C83515D42A410065D1A9 /* DetailViewController.m */,
+				E836C82015D42A410065D1A9 /* Supporting Files */,
+			);
+			path = "ASP GPA";
+			sourceTree = "<group>";
+		};
+		E836C82015D42A410065D1A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E836C82115D42A410065D1A9 /* ASP GPA-Info.plist */,
+				E836C82215D42A410065D1A9 /* InfoPlist.strings */,
+				E836C82515D42A410065D1A9 /* main.m */,
+				E836C82715D42A410065D1A9 /* ASP GPA-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E836C84315D42A420065D1A9 /* ASP GPATests */ = {
+			isa = PBXGroup;
+			children = (
+				E836C84915D42A420065D1A9 /* ASP_GPATests.h */,
+				E836C84A15D42A420065D1A9 /* ASP_GPATests.m */,
+				E836C84415D42A420065D1A9 /* Supporting Files */,
+			);
+			path = "ASP GPATests";
+			sourceTree = "<group>";
+		};
+		E836C84415D42A420065D1A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E836C84515D42A420065D1A9 /* ASP GPATests-Info.plist */,
+				E836C84615D42A420065D1A9 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E836C81415D42A410065D1A9 /* ASP GPA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E836C84E15D42A420065D1A9 /* Build configuration list for PBXNativeTarget "ASP GPA" */;
+			buildPhases = (
+				E836C81115D42A410065D1A9 /* Sources */,
+				E836C81215D42A410065D1A9 /* Frameworks */,
+				E836C81315D42A410065D1A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ASP GPA";
+			productName = "ASP GPA";
+			productReference = E836C81515D42A410065D1A9 /* ASP GPA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E836C83B15D42A420065D1A9 /* ASP GPATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E836C85115D42A420065D1A9 /* Build configuration list for PBXNativeTarget "ASP GPATests" */;
+			buildPhases = (
+				E836C83715D42A420065D1A9 /* Sources */,
+				E836C83815D42A420065D1A9 /* Frameworks */,
+				E836C83915D42A420065D1A9 /* Resources */,
+				E836C83A15D42A420065D1A9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E836C84215D42A420065D1A9 /* PBXTargetDependency */,
+			);
+			name = "ASP GPATests";
+			productName = "ASP GPATests";
+			productReference = E836C83C15D42A420065D1A9 /* ASP GPATests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E836C80C15D42A410065D1A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Nikhil Pai";
+			};
+			buildConfigurationList = E836C80F15D42A410065D1A9 /* Build configuration list for PBXProject "ASP GPA" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E836C80A15D42A410065D1A9;
+			productRefGroup = E836C81615D42A410065D1A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E836C81415D42A410065D1A9 /* ASP GPA */,
+				E836C83B15D42A420065D1A9 /* ASP GPATests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E836C81315D42A410065D1A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E836C82415D42A410065D1A9 /* InfoPlist.strings in Resources */,
+				E836C82D15D42A410065D1A9 /* MainStoryboard_iPhone.storyboard in Resources */,
+				E836C83015D42A410065D1A9 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E836C83915D42A420065D1A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E836C84815D42A420065D1A9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E836C83A15D42A420065D1A9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E836C81115D42A410065D1A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E836C82615D42A410065D1A9 /* main.m in Sources */,
+				E836C82A15D42A410065D1A9 /* AppDelegate.m in Sources */,
+				E836C83315D42A410065D1A9 /* MasterViewController.m in Sources */,
+				E836C83615D42A410065D1A9 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E836C83715D42A420065D1A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E836C84B15D42A420065D1A9 /* ASP_GPATests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E836C84215D42A420065D1A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E836C81415D42A410065D1A9 /* ASP GPA */;
+			targetProxy = E836C84115D42A420065D1A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E836C82215D42A410065D1A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E836C82315D42A410065D1A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E836C82B15D42A410065D1A9 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E836C82C15D42A410065D1A9 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E836C82E15D42A410065D1A9 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E836C82F15D42A410065D1A9 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E836C84615D42A420065D1A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E836C84715D42A420065D1A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E836C84C15D42A420065D1A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E836C84D15D42A420065D1A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E836C84F15D42A420065D1A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASP GPA/ASP GPA-Prefix.pch";
+				INFOPLIST_FILE = "ASP GPA/ASP GPA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E836C85015D42A420065D1A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASP GPA/ASP GPA-Prefix.pch";
+				INFOPLIST_FILE = "ASP GPA/ASP GPA-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E836C85215D42A420065D1A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ASP GPA.app/ASP GPA";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASP GPA/ASP GPA-Prefix.pch";
+				INFOPLIST_FILE = "ASP GPATests/ASP GPATests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E836C85315D42A420065D1A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ASP GPA.app/ASP GPA";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASP GPA/ASP GPA-Prefix.pch";
+				INFOPLIST_FILE = "ASP GPATests/ASP GPATests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E836C80F15D42A410065D1A9 /* Build configuration list for PBXProject "ASP GPA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E836C84C15D42A420065D1A9 /* Debug */,
+				E836C84D15D42A420065D1A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E836C84E15D42A420065D1A9 /* Build configuration list for PBXNativeTarget "ASP GPA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E836C84F15D42A420065D1A9 /* Debug */,
+				E836C85015D42A420065D1A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E836C85115D42A420065D1A9 /* Build configuration list for PBXNativeTarget "ASP GPATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E836C85215D42A420065D1A9 /* Debug */,
+				E836C85315D42A420065D1A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E836C80C15D42A410065D1A9 /* Project object */;
+}
