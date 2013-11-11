@@ -7,11 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Semester.h"
+#import "Year.h"
 
 @class DetailViewController;
 
-@interface MasterViewController : UITableViewController
+@interface MasterViewController : UITableViewController <UIAlertViewDelegate>
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
+
+@property (strong, nonatomic) NSMutableArray *years;
+@property(assign) BOOL *isEditing;
+@property(assign) BOOL *changesMade;
+
+-(void) loadSemesters;
 
 @end

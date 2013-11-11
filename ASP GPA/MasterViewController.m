@@ -9,6 +9,9 @@
 #import "MasterViewController.h"
 
 #import "DetailViewController.h"
+#import "Semester.h"
+#import "Year.h"
+#import "Parser.h"
 
 @interface MasterViewController () {
     NSMutableArray *_objects;
@@ -16,6 +19,10 @@
 @end
 
 @implementation MasterViewController
+
+@synthesize years, isEditing,changesMade;
+
+
 
 - (void)awakeFromNib
 {
@@ -28,21 +35,58 @@
 
 - (void)viewDidLoad
 {
+    isEditing = NO;
+    changesMade = NO;
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.navigationItem.leftBarButtonItem = self.editButtonItem;
+     years = [Parser loadFile];
+    UIBarButtonItem *editButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit target:self action:@selector(editSection:)];
+    self.navigationItem.leftBarButtonItem = editButton;
 
     UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
     self.navigationItem.rightBarButtonItem = addButton;
+    
+    self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
+    
     self.detailViewController = (DetailViewController *)[[self.splitViewController.viewControllers lastObject] topViewController];
+
+    self.title = @"ASP GPA";
+    
+    UIImageView *tempImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Background.png"]];
+    [tempImageView setFrame:self.tableView.frame];
+    
+    self.tableView.backgroundView = tempImageView;
+    
+    
+    
 }
 
 - (void)viewDidUnload
 {
     [super viewDidUnload];
+    
     // Release any retained subviews of the main view.
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+    [self.navigationController setNavigationBarHidden:NO animated:YES];
+    if (changesMade) {
+        [self.tableView beginUpdates];
+    
+    NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+    [self.tableView reloadRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
+        
+        [self.tableView endUpdates];
+    }
+}
+
+-(void)viewWillDisappear:(BOOL)animated
+{
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
+}
+
+/*
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
@@ -51,85 +95,173 @@
         return YES;
     }
 }
+*/
 
 - (void)insertNewObject:(id)sender
 {
-    if (!_objects) {
-        _objects = [[NSMutableArray alloc] init];
-    }
-    [_objects insertObject:[NSDate date] atIndex:0];
-    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
-    [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+    UIAlertView *namer = [[UIAlertView alloc] initWithTitle:@"Name" message:nil delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Done",nil];
+    namer.alertViewStyle = UIAlertViewStylePlainTextInput;
+    [namer show];
 }
 
-#pragma mark - Table View
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    if (buttonIndex == 1) {
+        NSString *name= [alertView textFieldAtIndex:0].text;
+        
+        Semester *one = [[Semester alloc]initWithName:@"Semester 1"];
+        Semester *two = [[Semester alloc]initWithName:@"Semester 2"];
+        
+        Year *new = [[Year alloc]initWithName:name Semesters:[NSMutableArray arrayWithObjects:one,two, nil]];
+        [years insertObject:new atIndex:0];
+        
+        NSArray *paths = [NSArray array];
+        for (int i = 0; i < new.semesters.count; i++) {
+            NSIndexPath *indexPath = [NSIndexPath indexPathForRow:i inSection:0];
+            paths = [paths arrayByAddingObject:indexPath];
+        }
+        [self.tableView beginUpdates];
+        [self.tableView insertSections:[NSIndexSet indexSetWithIndex:0] withRowAnimation:UITableViewRowAnimationAutomatic];
+        [self.tableView insertRowsAtIndexPaths:paths withRowAnimation:UITableViewRowAnimationAutomatic];
+        [self.tableView endUpdates];
+        
+        NSLog(@"years are: %i", years.count);
+    }
+}
+
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
+
+    return [[years objectAtIndex:section]name];
+}
+
+
+-(void)editSection:(id)sender{
+    isEditing = YES;
+    
+    [self.tableView beginUpdates];
+
+    NSArray *paths =[NSArray array];
+    for (int sI=0; sI < [self.tableView numberOfSections]; sI++) {
+        NSIndexPath *path = [NSIndexPath indexPathForRow:[self.tableView numberOfRowsInSection:sI] inSection:sI];
+        paths = [paths arrayByAddingObject:path];
+    }
+    [self.tableView insertRowsAtIndexPaths:paths withRowAnimation:UITableViewRowAnimationAutomatic];
+
+    [self.tableView endUpdates];
+    
+    
+    UIBarButtonItem *doneButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(finishEdit:)];
+    self.navigationItem.leftBarButtonItem = doneButton;
+
+}
+
+-(void)finishEdit:(id)sender{
+    isEditing = NO;
+    
+    [self.tableView beginUpdates];
+    
+    NSArray *paths =[NSArray array];
+    for (int sI=0; sI < [self.tableView numberOfSections]; sI++) {
+        NSIndexPath *path = [NSIndexPath indexPathForRow:([self.tableView numberOfRowsInSection:sI]-1) inSection:sI];
+        paths = [paths arrayByAddingObject:path];
+    }
+    [self.tableView deleteRowsAtIndexPaths:paths withRowAnimation:UITableViewRowAnimationAutomatic];
+    
+    [self.tableView endUpdates];
+    
+    UIBarButtonItem *editButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit target:self action:@selector(editSection:)];
+    self.navigationItem.leftBarButtonItem = editButton;
+}
+
+
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
+ UIView* customView = [[UIView alloc] initWithFrame:CGRectMake(10.0, 0.0, 300.0, 44.0)];
+ 
+ UILabel * headerLabel = [[UILabel alloc] initWithFrame:CGRectZero];
+ headerLabel.backgroundColor = [UIColor clearColor];
+ headerLabel.opaque = NO;
+ headerLabel.textColor = [UIColor whiteColor];
+ headerLabel.font = [UIFont boldSystemFontOfSize:30];
+ headerLabel.frame = CGRectMake(10.0, 0.0, 300.0, 44.0);
+ 
+ headerLabel.text = [[years objectAtIndex:section]name]; // i.e. array element
+ [customView addSubview:headerLabel];
+ 
+ return customView;
+}
+
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
+    return years.count;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return _objects.count;
+    if (isEditing) {
+        return ([[[years objectAtIndex:section] semesters]count]+1);
+    }else{
+    return [[[years objectAtIndex:section] semesters]count];
+    }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    if (!isEditing || !(indexPath.row == ([tableView numberOfRowsInSection:indexPath.section]-1))) {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
 
-    NSDate *object = [_objects objectAtIndex:indexPath.row];
-    cell.textLabel.text = [object description];
+    Year *object = [years objectAtIndex:indexPath.section];
+    Semester * sem = [object.semesters objectAtIndex:indexPath.row];
+        cell.textLabel.text = [sem name];
+        cell.detailTextLabel.text = [NSString stringWithFormat: @"%.2f", sem.gpa];
+
     return cell;
+    }
+    
+    else if (isEditing && indexPath.row == ([tableView numberOfRowsInSection:indexPath.section]-1)) {
+        UITableViewCell *deleteCell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:nil];
+        deleteCell.textLabel.text = @"Delete Year";
+        deleteCell.textLabel.textAlignment =  UITextAlignmentCenter;
+        deleteCell.backgroundColor = [UIColor redColor];
+        
+        return deleteCell;
+    }
+    return nil;
 }
 
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Return NO if you do not want the specified item to be editable.
-    return YES;
+    return NO;
 }
 
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        [_objects removeObjectAtIndex:indexPath.row];
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-    }
-}
 
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-        NSDate *object = [_objects objectAtIndex:indexPath.row];
-        self.detailViewController.detailItem = object;
+        
+    if (isEditing && indexPath.row == ([tableView numberOfRowsInSection:indexPath.section]-1)) {
+        [years removeObjectAtIndex:indexPath.section];
+        [self.tableView beginUpdates];
+        [self.tableView deleteSections:[NSIndexSet indexSetWithIndex:indexPath.section] withRowAnimation:UITableViewRowAnimationAutomatic];
+        [self.tableView endUpdates];
     }
+    
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
+        
+        changesMade = YES;
+        
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDate *object = [_objects objectAtIndex:indexPath.row];
-        [[segue destinationViewController] setDetailItem:object];
+
+        Year *currentYear = [years objectAtIndex:indexPath.section];
+        [[segue destinationViewController] setCurrentSemester:[currentYear.semesters objectAtIndex:indexPath.row]];
+        [[segue destinationViewController] setNamePasser:currentYear.name];
     }
+
 }
 
 @end

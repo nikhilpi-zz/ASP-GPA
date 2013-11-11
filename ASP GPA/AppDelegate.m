@@ -7,17 +7,21 @@
 //
 
 #import "AppDelegate.h"
+#import "Parser.h"
+#import "MasterViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    /*
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
         UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
         UINavigationController *navigationController = [splitViewController.viewControllers lastObject];
         splitViewController.delegate = (id)navigationController.topViewController;
     }
+     */
     return YES;
 }
 							
@@ -31,6 +35,23 @@
 {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+  /*  NSArray *windows = [application windows];
+    MasterViewController *main = [[[application windows]objectAtIndex:1]rootViewController];
+    [Parser saveFile:main.years];
+    */
+
+    NSArray *windows = application.windows;
+    UINavigationController *nav;
+    for (int i = 0; i < windows.count; i++) {
+        UIWindow *current = [windows objectAtIndex:i];
+        if ([current.rootViewController.title isEqualToString:@"ASP GPA"]) {
+            nav = (UINavigationController *)current.rootViewController;
+        }
+    }
+    windows = nav.viewControllers;
+    MasterViewController *master = [windows objectAtIndex:0];
+    
+    [Parser saveFile:master.years];
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application
@@ -46,6 +67,18 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    NSArray *windows = application.windows;
+    UINavigationController *nav;
+    for (int i = 0; i < windows.count; i++) {
+        UIWindow *current = [windows objectAtIndex:i];
+        if ([current.rootViewController.title isEqualToString:@"master"]) {
+            nav = (UINavigationController *)current.rootViewController;
+        }
+    }
+    windows = nav.viewControllers;
+    MasterViewController *master = [windows objectAtIndex:0];
+    
+    [Parser saveFile:master.years];
 }
 
 @end

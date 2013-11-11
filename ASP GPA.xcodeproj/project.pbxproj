@@ -22,6 +22,18 @@
 		E836C84015D42A420065D1A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E836C81B15D42A410065D1A9 /* Foundation.framework */; };
 		E836C84815D42A420065D1A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E836C84615D42A420065D1A9 /* InfoPlist.strings */; };
 		E836C84B15D42A420065D1A9 /* ASP_GPATests.m in Sources */ = {isa = PBXBuildFile; fileRef = E836C84A15D42A420065D1A9 /* ASP_GPATests.m */; };
+		E836C85815D42A9A0065D1A9 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = E836C85715D42A9A0065D1A9 /* Calculator.m */; };
+		E836C85B15D42AD70065D1A9 /* Grade.m in Sources */ = {isa = PBXBuildFile; fileRef = E836C85A15D42AD70065D1A9 /* Grade.m */; };
+		E836C85E15D42B020065D1A9 /* Semester.m in Sources */ = {isa = PBXBuildFile; fileRef = E836C85D15D42B020065D1A9 /* Semester.m */; };
+		E857AEAE15F6051E00C5F3B5 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E857AEAD15F6051E00C5F3B5 /* Icon.png */; };
+		E857AEB015F6052500C5F3B5 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E857AEAF15F6052500C5F3B5 /* Icon@2x.png */; };
+		E857AEB615F607BF00C5F3B5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E857AEB515F607BF00C5F3B5 /* Default.png */; };
+		E857AEB815F607C600C5F3B5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E857AEB715F607C600C5F3B5 /* Default@2x.png */; };
+		E857AEBA15F60B3000C5F3B5 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = E857AEB915F60B3000C5F3B5 /* Background.png */; };
+		E857AEBD15F60C0F00C5F3B5 /* Launch@2x1.png in Resources */ = {isa = PBXBuildFile; fileRef = E857AEBB15F60C0F00C5F3B5 /* Launch@2x1.png */; };
+		E857AEBE15F60C0F00C5F3B5 /* Launch1.png in Resources */ = {isa = PBXBuildFile; fileRef = E857AEBC15F60C0F00C5F3B5 /* Launch1.png */; };
+		E8D67E9515E6754E00A0E689 /* Year.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D67E9415E6754E00A0E689 /* Year.m */; };
+		E8D67E9E15E893EE00A0E689 /* Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D67E9D15E893EE00A0E689 /* Parser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +69,23 @@
 		E836C84715D42A420065D1A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E836C84915D42A420065D1A9 /* ASP_GPATests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASP_GPATests.h; sourceTree = "<group>"; };
 		E836C84A15D42A420065D1A9 /* ASP_GPATests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASP_GPATests.m; sourceTree = "<group>"; };
+		E836C85615D42A9A0065D1A9 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		E836C85715D42A9A0065D1A9 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		E836C85915D42AD70065D1A9 /* Grade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grade.h; sourceTree = "<group>"; };
+		E836C85A15D42AD70065D1A9 /* Grade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grade.m; sourceTree = "<group>"; };
+		E836C85C15D42B020065D1A9 /* Semester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Semester.h; sourceTree = "<group>"; };
+		E836C85D15D42B020065D1A9 /* Semester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Semester.m; sourceTree = "<group>"; };
+		E857AEAD15F6051E00C5F3B5 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E857AEAF15F6052500C5F3B5 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		E857AEB515F607BF00C5F3B5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E857AEB715F607C600C5F3B5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E857AEB915F60B3000C5F3B5 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		E857AEBB15F60C0F00C5F3B5 /* Launch@2x1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launch@2x1.png"; sourceTree = "<group>"; };
+		E857AEBC15F60C0F00C5F3B5 /* Launch1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Launch1.png; sourceTree = "<group>"; };
+		E8D67E9315E6754E00A0E689 /* Year.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Year.h; sourceTree = "<group>"; };
+		E8D67E9415E6754E00A0E689 /* Year.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Year.m; sourceTree = "<group>"; };
+		E8D67E9C15E893EE00A0E689 /* Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parser.h; sourceTree = "<group>"; };
+		E8D67E9D15E893EE00A0E689 /* Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +115,10 @@
 		E836C80A15D42A410065D1A9 = {
 			isa = PBXGroup;
 			children = (
+				E857AEB715F607C600C5F3B5 /* Default@2x.png */,
+				E857AEB515F607BF00C5F3B5 /* Default.png */,
+				E857AEAF15F6052500C5F3B5 /* Icon@2x.png */,
+				E857AEAD15F6051E00C5F3B5 /* Icon.png */,
 				E836C81F15D42A410065D1A9 /* ASP GPA */,
 				E836C84315D42A420065D1A9 /* ASP GPATests */,
 				E836C81815D42A410065D1A9 /* Frameworks */,
@@ -116,14 +149,8 @@
 		E836C81F15D42A410065D1A9 /* ASP GPA */ = {
 			isa = PBXGroup;
 			children = (
-				E836C82815D42A410065D1A9 /* AppDelegate.h */,
-				E836C82915D42A410065D1A9 /* AppDelegate.m */,
-				E836C82B15D42A410065D1A9 /* MainStoryboard_iPhone.storyboard */,
-				E836C82E15D42A410065D1A9 /* MainStoryboard_iPad.storyboard */,
-				E836C83115D42A410065D1A9 /* MasterViewController.h */,
-				E836C83215D42A410065D1A9 /* MasterViewController.m */,
-				E836C83415D42A410065D1A9 /* DetailViewController.h */,
-				E836C83515D42A410065D1A9 /* DetailViewController.m */,
+				E836C85515D42A750065D1A9 /* Model */,
+				E836C85415D42A5D0065D1A9 /* GUI */,
 				E836C82015D42A410065D1A9 /* Supporting Files */,
 			);
 			path = "ASP GPA";
@@ -157,6 +184,41 @@
 				E836C84615D42A420065D1A9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E836C85415D42A5D0065D1A9 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				E836C82815D42A410065D1A9 /* AppDelegate.h */,
+				E836C82915D42A410065D1A9 /* AppDelegate.m */,
+				E836C82B15D42A410065D1A9 /* MainStoryboard_iPhone.storyboard */,
+				E857AEB915F60B3000C5F3B5 /* Background.png */,
+				E836C82E15D42A410065D1A9 /* MainStoryboard_iPad.storyboard */,
+				E836C83115D42A410065D1A9 /* MasterViewController.h */,
+				E836C83215D42A410065D1A9 /* MasterViewController.m */,
+				E857AEBB15F60C0F00C5F3B5 /* Launch@2x1.png */,
+				E857AEBC15F60C0F00C5F3B5 /* Launch1.png */,
+				E836C83415D42A410065D1A9 /* DetailViewController.h */,
+				E836C83515D42A410065D1A9 /* DetailViewController.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		E836C85515D42A750065D1A9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E836C85615D42A9A0065D1A9 /* Calculator.h */,
+				E836C85715D42A9A0065D1A9 /* Calculator.m */,
+				E836C85915D42AD70065D1A9 /* Grade.h */,
+				E836C85A15D42AD70065D1A9 /* Grade.m */,
+				E836C85C15D42B020065D1A9 /* Semester.h */,
+				E836C85D15D42B020065D1A9 /* Semester.m */,
+				E8D67E9315E6754E00A0E689 /* Year.h */,
+				E8D67E9415E6754E00A0E689 /* Year.m */,
+				E8D67E9C15E893EE00A0E689 /* Parser.h */,
+				E8D67E9D15E893EE00A0E689 /* Parser.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +295,13 @@
 				E836C82415D42A410065D1A9 /* InfoPlist.strings in Resources */,
 				E836C82D15D42A410065D1A9 /* MainStoryboard_iPhone.storyboard in Resources */,
 				E836C83015D42A410065D1A9 /* MainStoryboard_iPad.storyboard in Resources */,
+				E857AEAE15F6051E00C5F3B5 /* Icon.png in Resources */,
+				E857AEB015F6052500C5F3B5 /* Icon@2x.png in Resources */,
+				E857AEB615F607BF00C5F3B5 /* Default.png in Resources */,
+				E857AEB815F607C600C5F3B5 /* Default@2x.png in Resources */,
+				E857AEBA15F60B3000C5F3B5 /* Background.png in Resources */,
+				E857AEBD15F60C0F00C5F3B5 /* Launch@2x1.png in Resources */,
+				E857AEBE15F60C0F00C5F3B5 /* Launch1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +340,11 @@
 				E836C82A15D42A410065D1A9 /* AppDelegate.m in Sources */,
 				E836C83315D42A410065D1A9 /* MasterViewController.m in Sources */,
 				E836C83615D42A410065D1A9 /* DetailViewController.m in Sources */,
+				E836C85815D42A9A0065D1A9 /* Calculator.m in Sources */,
+				E836C85B15D42AD70065D1A9 /* Grade.m in Sources */,
+				E836C85E15D42B020065D1A9 /* Semester.m in Sources */,
+				E8D67E9515E6754E00A0E689 /* Year.m in Sources */,
+				E8D67E9E15E893EE00A0E689 /* Parser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,10 +456,17 @@
 		E836C84F15D42A420065D1A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+					armv7s,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASP GPA/ASP GPA-Prefix.pch";
 				INFOPLIST_FILE = "ASP GPA/ASP GPA-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -393,10 +474,17 @@
 		E836C85015D42A420065D1A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv6,
+					armv7,
+					armv7s,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASP GPA/ASP GPA-Prefix.pch";
 				INFOPLIST_FILE = "ASP GPA/ASP GPA-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -454,6 +542,7 @@
 				E836C85015D42A420065D1A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E836C85115D42A420065D1A9 /* Build configuration list for PBXNativeTarget "ASP GPATests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +551,7 @@
 				E836C85315D42A420065D1A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,574 @@
+TASP GPA
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/Info.plist" "ASP GPA/ASP GPA-Info.plist"
+cProcessPCH "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/PrecompiledHeaders/ASP GPA-Prefix-dslcralvpxxsabgjfbuugecfklcy/ASP GPA-Prefix.pch.pth" "ASP GPA/ASP GPA-Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Calculator.o" "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Calculator.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/main.o" "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/AppDelegate.o" "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/AppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/DetailViewController.o" "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/DetailViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Semester.o" "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Semester.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Grade.o" "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Grade.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Parser.o" "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Parser.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Year.o" "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Year.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/MasterViewController.o" "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/MasterViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/ASP GPA" normal i386
+cGenerateDSYMFile "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app.dSYM" "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/ASP GPA"
+cCompileStoryboard "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/en.lproj/MainStoryboard_iPad.storyboard"
+cCopyStringsFile "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/en.lproj/InfoPlist.strings" "ASP GPA/en.lproj/InfoPlist.strings"
+cCompileStoryboard "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/en.lproj/MainStoryboard_iPhone.storyboard"
+cCpResource Icon.png "Build/Products/Debug-iphonesimulator/ASP GPA.app/Icon.png"
+cCpResource Default.png "Build/Products/Debug-iphonesimulator/ASP GPA.app/Default.png"
+cCpResource Icon@2x.png "Build/Products/Debug-iphonesimulator/ASP GPA.app/Icon@2x.png"
+cCpResource Default@2x.png "Build/Products/Debug-iphonesimulator/ASP GPA.app/Default@2x.png"
+cCpResource "ASP GPA/Background.png" "Build/Products/Debug-iphonesimulator/ASP GPA.app/Background.png"
+cCpResource "ASP GPA/Launch@2x1.png" "Build/Products/Debug-iphonesimulator/ASP GPA.app/Launch@2x1.png"
+cCpResource "ASP GPA/Launch1.png" "Build/Products/Debug-iphonesimulator/ASP GPA.app/Launch1.png"
+cTouch "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app"
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk
+c0000000050C613600000000000000110
+t1355158368
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000505D33F60000000000228FD0
+t1348285430
+s2265040
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000505D33F600000000003DCEF0
+t1348285430
+s4050672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000505D33F80000000000AB3D60
+t1348285432
+s11222368
+
+N/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/ASP GPA-Prefix.pch
+c000000005023F2C1000000000000013D
+t1344533185
+s317
+
+N/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/AppDelegate.m
+c00000000504363D10000000000000E14
+t1346593745
+s3604
+
+N/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Background.png
+c000000005045D37D0000000000007484
+t1346753405
+s29828
+
+N/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Calculator.m
+c000000005043705400000000000007C3
+t1346596948
+s1987
+
+N/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/DetailViewController.m
+c000000005047DFE50000000000002B14
+t1346887653
+s11028
+
+N/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Grade.m
+c000000005023F3FB0000000000000222
+t1344533499
+s546
+
+N/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Launch1.png
+c000000005045D46F000000000000438C
+t1346753647
+s17292
+
+N/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Launch@2x1.png
+c000000005045D3FC000000000000814B
+t1346753532
+s33099
+
+N/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/MasterViewController.m
+c000000005045D6270000000000002322
+t1346754087
+s8994
+
+N/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Parser.m
+c000000005045D5360000000000001DA1
+t1346753846
+s7585
+
+N/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Semester.m
+c0000000050435F1000000000000002FE
+t1346592528
+s766
+
+N/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Year.m
+c00000000503A317C0000000000000192
+t1345991036
+s402
+
+N/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/en.lproj/InfoPlist.strings
+c000000005023F2C1000000000000002D
+t1344533185
+s45
+
+N/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/en.lproj/MainStoryboard_iPad.storyboard
+c000000005023F2C100000000000023C4
+t1344533185
+s9156
+
+N/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/en.lproj/MainStoryboard_iPhone.storyboard
+c000000005060F6900000000000004FF1
+t1348531856
+s20465
+
+N/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/main.m
+c000000005023F2C1000000000000014E
+t1344533185
+s334
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/ASP GPA.LinkFileList
+c00000000511BB27500000000000004F3
+t1360769653
+s1267
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Calculator.o
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/DetailViewController.o
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Grade.o
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/MasterViewController.o
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Parser.o
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Semester.o
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Year.o
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/PrecompiledHeaders/ASP GPA-Prefix-dslcralvpxxsabgjfbuugecfklcy/ASP GPA-Prefix.pch.pth
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app.dSYM
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/ASP GPA
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/Background.png
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/Default.png
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/Default@2x.png
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/Icon.png
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/Icon@2x.png
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/Info.plist
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/Launch1.png
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/Launch@2x1.png
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/PkgInfo
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/en.lproj/MainStoryboard_iPad.storyboardc
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/en.lproj/MainStoryboard_iPhone.storyboardc
+t2
+s0
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Default.png
+c000000005045D46F000000000000438C
+t1346753647
+s17292
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Default@2x.png
+c000000005045D3FC000000000000814B
+t1346753532
+s33099
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Icon.png
+c000000005045CC530000000000001833
+t1346751571
+s6195
+
+N/Users/NPai/Documents/App Dev/ASP GPA/Icon@2x.png
+c000000005045CBF70000000000002C0A
+t1346751479
+s11274
+
+NASP GPA/ASP GPA-Info.plist
+c00000000507861E300000000000006EA
+t1350066659
+s1770
+
+CBuild AST from "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/AppDelegate.m"
+r0
+
+CBuild AST from "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Calculator.m"
+r0
+
+CBuild AST from "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/DetailViewController.m"
+r0
+
+CBuild AST from "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Grade.m"
+r0
+
+CBuild AST from "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/MasterViewController.m"
+r0
+
+CBuild AST from "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Parser.m"
+r0
+
+CBuild AST from "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Semester.m"
+r0
+
+CBuild AST from "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Year.m"
+r0
+
+CBuild AST from "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/main.m"
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies959fe4f4e9cbb641^00c607f5e9cbb641^---0#1#0#--18"Check dependencies36"7664629A-759F-4950-AF23-F16DAA8A0A26-
+
+CCompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/AppDelegate.o" "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/AppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382462453.450981
+e382462453.562035
+r1
+xCompileC
+xBuild/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/AppDelegate.o
+x/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/AppDelegate.m67d173f5e9cbb641^00e18ff5e9cbb641^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/AppDelegate.m0000000000000000^3684"CompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/AppDelegate.o" "ASP GPA/AppDelegate.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.1 -iquote "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-generated-files.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-own-target-headers.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-all-target-headers.hmap" -iquote "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-project-headers.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/DerivedSources/i386" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/DerivedSources" "-F/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator" -include "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/PrecompiledHeaders/ASP GPA-Prefix-dslcralvpxxsabgjfbuugecfklcy/ASP GPA-Prefix.pch" -MMD -MT dependencies -MF "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/AppDelegate.d" --serialize-diagnostics "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/AppDelegate.dia" -c "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/AppDelegate.m" -o "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/AppDelegate.o"36"3931BCC5-C53C-49EC-996C-7BBD28CCFD37-
+
+CCompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Calculator.o" "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Calculator.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382462453.450926
+e382462453.563597
+r1
+xCompileC
+xBuild/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Calculator.o
+x/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Calculator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Calculator.m48e073f5e9cbb641^e54790f5e9cbb641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/Calculator.m0000000000000000^3678"CompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Calculator.o" "ASP GPA/Calculator.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.1 -iquote "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-generated-files.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-own-target-headers.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-all-target-headers.hmap" -iquote "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-project-headers.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/DerivedSources/i386" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/DerivedSources" "-F/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator" -include "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/PrecompiledHeaders/ASP GPA-Prefix-dslcralvpxxsabgjfbuugecfklcy/ASP GPA-Prefix.pch" -MMD -MT dependencies -MF "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Calculator.d" --serialize-diagnostics "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Calculator.dia" -c "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Calculator.m" -o "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Calculator.o"36"727734C7-C9B4-495B-A05D-59411566F24B-
+
+CCompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/DetailViewController.o" "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/DetailViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382462453.450989
+e382462453.591545
+r1
+xCompileC
+xBuild/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/DetailViewController.o
+x/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/DetailViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/DetailViewController.m98dd73f5e9cbb641^a06f97f5e9cbb641^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/DetailViewController.m0000000000000000^3738"CompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/DetailViewController.o" "ASP GPA/DetailViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.1 -iquote "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-generated-files.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-own-target-headers.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-all-target-headers.hmap" -iquote "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-project-headers.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/DerivedSources/i386" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/DerivedSources" "-F/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator" -include "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/PrecompiledHeaders/ASP GPA-Prefix-dslcralvpxxsabgjfbuugecfklcy/ASP GPA-Prefix.pch" -MMD -MT dependencies -MF "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/DetailViewController.d" --serialize-diagnostics "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/DetailViewController.dia" -c "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/DetailViewController.m" -o "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/DetailViewController.o"36"2763D9A0-23FF-4AC6-BCFB-0687149C6846-
+
+CCompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Grade.o" "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Grade.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382462453.451338
+e382462453.552860
+r1
+xCompileC
+xBuild/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Grade.o
+x/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Grade.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Grade.mbcae73f5e9cbb641^878a8df5e9cbb641^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/Grade.m0000000000000000^3648"CompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Grade.o" "ASP GPA/Grade.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.1 -iquote "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-generated-files.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-own-target-headers.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-all-target-headers.hmap" -iquote "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-project-headers.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/DerivedSources/i386" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/DerivedSources" "-F/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator" -include "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/PrecompiledHeaders/ASP GPA-Prefix-dslcralvpxxsabgjfbuugecfklcy/ASP GPA-Prefix.pch" -MMD -MT dependencies -MF "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Grade.d" --serialize-diagnostics "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Grade.dia" -c "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Grade.m" -o "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Grade.o"36"9F197979-A546-47A2-9C65-D5A161315506-
+
+CCompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/MasterViewController.o" "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/MasterViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382462453.554189
+e382462453.636460
+r1
+xCompileC
+xBuild/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/MasterViewController.o
+x/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/MasterViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/MasterViewController.m:139:15: warning: incompatible integer to pointer conversion assigning to 'BOOL *' (aka 'signed char *') from 'signed char'; 
+o    isEditing = YES;
+o              ^ ~~~
+o/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/MasterViewController.m:256:21: warning: incompatible integer to pointer conversion assigning to 'BOOL *' (aka 'signed char *') from 'signed char'; 
+o        changesMade = YES;
+o                    ^ ~~~
+o/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/MasterViewController.m:21:17: warning: incomplete implementation [-Wincomplete-implementation]
+o@implementation MasterViewController
+o                ^
+o/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/MasterViewController.h:23:1: note: method definition for 'loadSemesters' not found
+o-(void) loadSemesters;
+o^
+o3 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/MasterViewController.mb8028ef5e9cbb641^42eea2f5e9cbb641^-854"/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/MasterViewController.m:139:15: warning: incompatible integer to pointer conversion assigning to 'BOOL *' (aka 'signed char *') from 'signed char';     isEditing = YES;              ^ ~~~/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/MasterViewController.m:256:21: warning: incompatible integer to pointer conversion assigning to 'BOOL *' (aka 'signed char *') from 'signed char';         changesMade = YES;                    ^ ~~~/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/MasterViewController.m:21:17: warning: incomplete implementation [-Wincomplete-implementation]@implementation MasterViewController                ^/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/MasterViewController.h:23:1: note: method definition for 'loadSemesters' not found-(void) loadSemesters;^3 warnings generated.3(36%IDEClangDiagnosticActivityLogMessage2@107"Incompatible integer to pointer conversion assigning to 'BOOL *' (aka 'signed char *') from 'signed char'; -382462453#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@90"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/MasterViewController.m0000000000000000^138#14#138#14#4348#0#14"Semantic Issue1(3@90"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/MasterViewController.m0000000000000000^138#16#138#19#0#0#-2@107"Incompatible integer to pointer conversion assigning to 'BOOL *' (aka 'signed char *') from 'signed char'; -382462453#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@90"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/MasterViewController.m0000000000000000^255#20#255#20#8626#0#14"Semantic Issue1(3@90"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/MasterViewController.m0000000000000000^255#22#255#25#0#0#-2@25"Incomplete implementation-382462453#18446744073709551615#0#1(2@47"Method definition for 'loadSemesters' not found-382462453#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@90"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/MasterViewController.h0000000000000000^22#0#22#0#516#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@90"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/MasterViewController.m0000000000000000^20#16#20#16#359#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@90"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/MasterViewController.m0000000000000000^3738"CompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/MasterViewController.o" "ASP GPA/MasterViewController.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.1 -iquote "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-generated-files.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-own-target-headers.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-all-target-headers.hmap" -iquote "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-project-headers.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/DerivedSources/i386" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/DerivedSources" "-F/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator" -include "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/PrecompiledHeaders/ASP GPA-Prefix-dslcralvpxxsabgjfbuugecfklcy/ASP GPA-Prefix.pch" -MMD -MT dependencies -MF "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/MasterViewController.d" --serialize-diagnostics "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/MasterViewController.dia" -c "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/MasterViewController.m" -o "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/MasterViewController.o"36"E1244125-113F-4476-B91E-32D2CD1917F4-
+
+CCompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Parser.o" "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Parser.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382462453.451395
+e382462453.558681
+r1
+xCompileC
+xBuild/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Parser.o
+x/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Parser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Parser.m03b273f5e9cbb641^96058ff5e9cbb641^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/Parser.m0000000000000000^3654"CompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Parser.o" "ASP GPA/Parser.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.1 -iquote "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-generated-files.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-own-target-headers.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-all-target-headers.hmap" -iquote "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-project-headers.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/DerivedSources/i386" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/DerivedSources" "-F/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator" -include "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/PrecompiledHeaders/ASP GPA-Prefix-dslcralvpxxsabgjfbuugecfklcy/ASP GPA-Prefix.pch" -MMD -MT dependencies -MF "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Parser.d" --serialize-diagnostics "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Parser.dia" -c "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Parser.m" -o "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Parser.o"36"D20727E7-6F6D-4BB6-9B73-17BC08DF79B1-
+
+CCompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Semester.o" "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Semester.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382462453.451235
+e382462453.554177
+r1
+xCompileC
+xBuild/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Semester.o
+x/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Semester.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Semester.m:23:17: warning: local declaration of 'name' hides instance variable [-Wshadow-ivar]
+o    self.name = name;
+o                ^
+o/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Semester.m:29:17: warning: local declaration of 'name' hides instance variable [-Wshadow-ivar]
+o    self.name = name;
+o                ^
+o/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Semester.m:30:19: warning: local declaration of 'grades' hides instance variable [-Wshadow-ivar]
+o    self.grades = grades;
+o                  ^
+o/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Semester.m:31:16: warning: local declaration of 'gpa' hides instance variable [-Wshadow-ivar]
+o    self.gpa = gpa;
+o               ^
+o4 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Semester.mb0ad73f5e9cbb641^6bf18df5e9cbb641^-750"/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Semester.m:23:17: warning: local declaration of 'name' hides instance variable [-Wshadow-ivar]    self.name = name;                ^/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Semester.m:29:17: warning: local declaration of 'name' hides instance variable [-Wshadow-ivar]    self.name = name;                ^/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Semester.m:30:19: warning: local declaration of 'grades' hides instance variable [-Wshadow-ivar]    self.grades = grades;                  ^/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Semester.m:31:16: warning: local declaration of 'gpa' hides instance variable [-Wshadow-ivar]    self.gpa = gpa;               ^4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@51"Local declaration of 'name' hides instance variable-382462453#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@78"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/Semester.m0000000000000000^22#16#22#16#399#0#14"Semantic Issue--2@51"Local declaration of 'name' hides instance variable-382462453#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/Semester.m0000000000000000^28#16#28#16#550#0#14"Semantic Issue--2@53"Local declaration of 'grades' hides instance variable-382462453#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/Semester.m0000000000000000^29#18#29#18#574#0#14"Semantic Issue--2@50"Local declaration of 'gpa' hides instance variable-382462453#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@78"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/Semester.m0000000000000000^30#15#30#15#597#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@78"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/Semester.m0000000000000000^3666"CompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Semester.o" "ASP GPA/Semester.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.1 -iquote "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-generated-files.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-own-target-headers.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-all-target-headers.hmap" -iquote "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-project-headers.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/DerivedSources/i386" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/DerivedSources" "-F/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator" -include "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/PrecompiledHeaders/ASP GPA-Prefix-dslcralvpxxsabgjfbuugecfklcy/ASP GPA-Prefix.pch" -MMD -MT dependencies -MF "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Semester.d" --serialize-diagnostics "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Semester.dia" -c "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Semester.m" -o "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Semester.o"36"F59C94BE-F69E-4982-B917-37516B19C7B0-
+
+CCompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Year.o" "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Year.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382462453.451930
+e382462453.553575
+r1
+xCompileC
+xBuild/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Year.o
+x/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Year.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Year.mfed573f5e9cbb641^f6b68df5e9cbb641^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/Year.m0000000000000000^3642"CompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Year.o" "ASP GPA/Year.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.1 -iquote "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-generated-files.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-own-target-headers.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-all-target-headers.hmap" -iquote "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-project-headers.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/DerivedSources/i386" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/DerivedSources" "-F/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator" -include "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/PrecompiledHeaders/ASP GPA-Prefix-dslcralvpxxsabgjfbuugecfklcy/ASP GPA-Prefix.pch" -MMD -MT dependencies -MF "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Year.d" --serialize-diagnostics "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Year.dia" -c "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Year.m" -o "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/Year.o"36"0EE70F1D-3AB9-45B8-BB02-95C588BD89D4-
+
+CCompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/main.o" "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382462453.450941
+e382462453.553898
+r1
+xCompileC
+xBuild/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/main.o
+x/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/main.m5dc473f5e9cbb641^efcb8df5e9cbb641^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/main.m0000000000000000^3642"CompileC "Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/main.o" "ASP GPA/main.m" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.1 -iquote "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-generated-files.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-own-target-headers.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-all-target-headers.hmap" -iquote "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-project-headers.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/DerivedSources/i386" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/DerivedSources" "-F/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator" -include "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/PrecompiledHeaders/ASP GPA-Prefix-dslcralvpxxsabgjfbuugecfklcy/ASP GPA-Prefix.pch" -MMD -MT dependencies -MF "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/main.d" --serialize-diagnostics "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/main.dia" -c "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/main.m" -o "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/main.o"36"85343292-2CED-4E39-8A9F-B2618DFA1586-
+
+CCompileStoryboard "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/en.lproj/MainStoryboard_iPad.storyboard"
+s382462453.832514
+e382462454.059118
+r1
+xCompileStoryboard
+x/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/en.lproj/MainStoryboard_iPad.storyboard
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"CompileStoryboard "ASP GPA/en.lproj/MainStoryboard_iPad.storyboard"6539d5f5e9cbb641^902d0ff6e9cbb641^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/en.lproj/MainStoryboard_iPad.storyboard0000000000000000^973"CompileStoryboard "ASP GPA/en.lproj/MainStoryboard_iPad.storyboard"    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/en.lproj/MainStoryboard_iPad.storyboardc" "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/en.lproj/MainStoryboard_iPad.storyboard" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"652345A3-9AA3-46D4-A5FB-94C4884D3720-
+
+CCompileStoryboard "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/en.lproj/MainStoryboard_iPhone.storyboard"
+s382462453.832531
+e382462454.591974
+r1
+xCompileStoryboard
+x/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/en.lproj/MainStoryboard_iPhone.storyboard
+o2013-02-13 09:34:14.356 Interface Builder Cocoa Touch Tool[1274:f07] CFPreferences: user home directory at file://localhost/Users/NPai/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"CompileStoryboard "ASP GPA/en.lproj/MainStoryboard_iPhone.storyboard"1d3ad5f5e9cbb641^bd8b97f6e9cbb641^-236"2013-02-13 09:34:14.356 Interface Builder Cocoa Touch Tool[1274:f07] CFPreferences: user home directory at file://localhost/Users/NPai/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/en.lproj/MainStoryboard_iPhone.storyboard0000000000000000^979"CompileStoryboard "ASP GPA/en.lproj/MainStoryboard_iPhone.storyboard"    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/en.lproj/MainStoryboard_iPhone.storyboardc" "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/en.lproj/MainStoryboard_iPhone.storyboard" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk36"49A60869-F884-4276-9EE8-AF3E25EB8D52-
+
+CCopyStringsFile "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/en.lproj/InfoPlist.strings" "ASP GPA/en.lproj/InfoPlist.strings"
+s382462453.832523
+e382462453.843163
+r1
+xCopyStringsFile
+x/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/en.lproj/InfoPlist.strings
+xASP GPA/en.lproj/InfoPlist.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy ASP GPA/en.lproj/InfoPlist.strings5b43d5f5e9cbb641^77d9d7f5e9cbb641^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/en.lproj/InfoPlist.strings0000000000000000^601"CopyStringsFile "Build/Products/Debug-iphonesimulator/ASP GPA.app/en.lproj/InfoPlist.strings" "ASP GPA/en.lproj/InfoPlist.strings"    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/en.lproj" -- "ASP GPA/en.lproj/InfoPlist.strings"36"EE787CFC-BE5A-4AFC-991E-CA6F44E14757-
+
+CCpResource "ASP GPA/Background.png" "Build/Products/Debug-iphonesimulator/ASP GPA.app/Background.png"
+s382462453.832688
+e382462453.842173
+r1
+xCpResource
+xASP GPA/Background.png
+xBuild/Products/Debug-iphonesimulator/ASP GPA.app/Background.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy Build/Products/Debug-iphonesimulator/ASP GPA.app/Background.pngb745d5f5e9cbb641^a698d7f5e9cbb641^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/Build/Products/Debug-iphonesimulator/ASP%20GPA.app/Background.png000000000080d041^608"CpResource "ASP GPA/Background.png" "Build/Products/Debug-iphonesimulator/ASP GPA.app/Background.png"    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Background.png" "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app"36"A4E19145-E3C1-47A4-A40E-E4714FDC2993-
+
+CCpResource "ASP GPA/Launch1.png" "Build/Products/Debug-iphonesimulator/ASP GPA.app/Launch1.png"
+s382462453.838456
+e382462453.845477
+r1
+xCpResource
+xASP GPA/Launch1.png
+xBuild/Products/Debug-iphonesimulator/ASP GPA.app/Launch1.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy Build/Products/Debug-iphonesimulator/ASP GPA.app/Launch1.pngf2b6d6f5e9cbb641^1170d8f5e9cbb641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/Build/Products/Debug-iphonesimulator/ASP%20GPA.app/Launch1.png000000000080d041^599"CpResource "ASP GPA/Launch1.png" "Build/Products/Debug-iphonesimulator/ASP GPA.app/Launch1.png"    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Launch1.png" "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app"36"87841793-6D22-42F4-9031-C9DD4CA02D73-
+
+CCpResource "ASP GPA/Launch@2x1.png" "Build/Products/Debug-iphonesimulator/ASP GPA.app/Launch@2x1.png"
+s382462453.838444
+e382462453.844813
+r1
+xCpResource
+xASP GPA/Launch@2x1.png
+xBuild/Products/Debug-iphonesimulator/ASP GPA.app/Launch@2x1.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy Build/Products/Debug-iphonesimulator/ASP GPA.app/Launch@2x1.png25b3d6f5e9cbb641^9e44d8f5e9cbb641^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/Build/Products/Debug-iphonesimulator/ASP%20GPA.app/Launch@2x1.png000000000080d041^608"CpResource "ASP GPA/Launch@2x1.png" "Build/Products/Debug-iphonesimulator/ASP GPA.app/Launch@2x1.png"    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/Launch@2x1.png" "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app"36"8868954B-F63E-4F6F-A1E4-C7E000D031C8-
+
+CCpResource Default.png "Build/Products/Debug-iphonesimulator/ASP GPA.app/Default.png"
+s382462453.832550
+e382462453.837244
+r1
+xCpResource
+xDefault.png
+xBuild/Products/Debug-iphonesimulator/ASP GPA.app/Default.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy Build/Products/Debug-iphonesimulator/ASP GPA.app/Default.png9a40d5f5e9cbb641^b055d6f5e9cbb641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/Build/Products/Debug-iphonesimulator/ASP%20GPA.app/Default.png000000000080d041^581"CpResource Default.png "Build/Products/Debug-iphonesimulator/ASP GPA.app/Default.png"    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/NPai/Documents/App Dev/ASP GPA/Default.png" "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app"36"69C86E73-6FF4-4D10-90E3-25FAB5E98A06-
+
+CCpResource Default@2x.png "Build/Products/Debug-iphonesimulator/ASP GPA.app/Default@2x.png"
+s382462453.832640
+e382462453.839306
+r1
+xCpResource
+xDefault@2x.png
+xBuild/Products/Debug-iphonesimulator/ASP GPA.app/Default@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy Build/Products/Debug-iphonesimulator/ASP GPA.app/Default@2x.png1c42d5f5e9cbb641^27ddd6f5e9cbb641^---0#0#0#-19%DVTDocumentLocation2@123"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/Build/Products/Debug-iphonesimulator/ASP%20GPA.app/Default@2x.png000000000080d041^592"CpResource "Default@2x.png" "Build/Products/Debug-iphonesimulator/ASP GPA.app/Default@2x.png"    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/NPai/Documents/App Dev/ASP GPA/Default@2x.png" "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app"36"5CEEF314-2157-470A-9494-FA171DC3FD9A-
+
+CCpResource Icon.png "Build/Products/Debug-iphonesimulator/ASP GPA.app/Icon.png"
+s382462453.832540
+e382462453.840331
+r1
+xCpResource
+xIcon.png
+xBuild/Products/Debug-iphonesimulator/ASP GPA.app/Icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Build/Products/Debug-iphonesimulator/ASP GPA.app/Icon.png4e42d5f5e9cbb641^b820d7f5e9cbb641^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/Build/Products/Debug-iphonesimulator/ASP%20GPA.app/Icon.png000000000080d041^572"CpResource Icon.png "Build/Products/Debug-iphonesimulator/ASP GPA.app/Icon.png"    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/NPai/Documents/App Dev/ASP GPA/Icon.png" "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app"36"E6948F2D-A9DC-4D67-80A7-857A7EF94782-
+
+CCpResource Icon@2x.png "Build/Products/Debug-iphonesimulator/ASP GPA.app/Icon@2x.png"
+s382462453.832556
+e382462453.838302
+r1
+xCpResource
+xIcon@2x.png
+xBuild/Products/Debug-iphonesimulator/ASP GPA.app/Icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy Build/Products/Debug-iphonesimulator/ASP GPA.app/Icon@2x.png8541d5f5e9cbb641^249cd6f5e9cbb641^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/Build/Products/Debug-iphonesimulator/ASP%20GPA.app/Icon@2x.png000000000080d041^583"CpResource "Icon@2x.png" "Build/Products/Debug-iphonesimulator/ASP GPA.app/Icon@2x.png"    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/NPai/Documents/App Dev/ASP GPA/Icon@2x.png" "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app"36"65E3A10E-831A-405C-B4C5-531449588BA5-
+
+CGenerateDSYMFile "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app.dSYM" "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/ASP GPA"
+s382462453.789466
+e382462453.824964
+r1
+xGenerateDSYMFile
+x/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app.dSYM
+x/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/ASP GPA
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Generating /Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app.dSYMc729caf5e9cbb641^dd60d4f5e9cbb641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/Build/Products/Debug-iphonesimulator/ASP%20GPA.app.dSYM000000000080d041^668"GenerateDSYMFile "Build/Products/Debug-iphonesimulator/ASP GPA.app.dSYM" "Build/Products/Debug-iphonesimulator/ASP GPA.app/ASP GPA"    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/ASP GPA" -o "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app.dSYM"36"EDCBD44D-858A-460A-A996-82565CE7F822-
+
+CLd "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/ASP GPA" normal i386
+s382462453.643300
+e382462453.782456
+r1
+xLd
+x/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/ASP GPA
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Link /Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/ASP GPA9cc0a4f5e9cbb641^664dc8f5e9cbb641^---0#0#0#--1204"Ld "Build/Products/Debug-iphonesimulator/ASP GPA.app/ASP GPA" normal i386    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk "-L/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator" "-F/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator" -filelist "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/Objects-normal/i386/ASP GPA.LinkFileList" -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.1 -framework UIKit -framework Foundation -framework CoreGraphics -o "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/ASP GPA"36"63368E65-9208-403A-823F-74AAF8DF563B-
+
+CProcessInfoPlistFile "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/Info.plist" "ASP GPA/ASP GPA-Info.plist"
+s382462453.042390
+e382462453.045963
+r1
+xProcessInfoPlistFile
+x/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/Info.plist
+xASP GPA/ASP GPA-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Process ASP GPA/ASP GPA-Info.plistcf130bf5e9cbb641^5ad80bf5e9cbb641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/ASP%20GPA-Info.plist0000000000000000^686"ProcessInfoPlistFile "Build/Products/Debug-iphonesimulator/ASP GPA.app/Info.plist" "ASP GPA/ASP GPA-Info.plist"    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility "ASP GPA/ASP GPA-Info.plist" -genpkginfo "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app/Info.plist"36"2B700616-0ACD-4811-A844-5561375A43C6-
+
+CProcessPCH "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/PrecompiledHeaders/ASP GPA-Prefix-dslcralvpxxsabgjfbuugecfklcy/ASP GPA-Prefix.pch.pth" "ASP GPA/ASP GPA-Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s382462453.056432
+e382462453.443922
+r1
+xProcessPCH
+x/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/PrecompiledHeaders/ASP GPA-Prefix-dslcralvpxxsabgjfbuugecfklcy/ASP GPA-Prefix.pch.pth
+xASP GPA/ASP GPA-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile ASP GPA/ASP GPA-Prefix.pchf3ae0ef5e9cbb641^b6a271f5e9cbb641^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/NPai/Documents/App%20Dev/ASP%20GPA/ASP%20GPA/ASP%20GPA-Prefix.pch0000000000000000^3556"ProcessPCH "Build/Intermediates/PrecompiledHeaders/ASP GPA-Prefix-dslcralvpxxsabgjfbuugecfklcy/ASP GPA-Prefix.pch.pth" "ASP GPA/ASP GPA-Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.0.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -mios-simulator-version-min=5.1 -iquote "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-generated-files.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-own-target-headers.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-all-target-headers.hmap" -iquote "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/ASP GPA-project-headers.hmap" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/include" -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/DerivedSources/i386" "-I/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/ASP GPA.build/Debug-iphonesimulator/ASP GPA.build/DerivedSources" "-F/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator" --serialize-diagnostics "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/PrecompiledHeaders/ASP GPA-Prefix-dslcralvpxxsabgjfbuugecfklcy/ASP GPA-Prefix.pch.dia" -c "/Users/NPai/Documents/App Dev/ASP GPA/ASP GPA/ASP GPA-Prefix.pch" -o "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/PrecompiledHeaders/ASP GPA-Prefix-dslcralvpxxsabgjfbuugecfklcy/ASP GPA-Prefix.pch.pth" -MMD -MT dependencies -MF "/Users/NPai/Documents/App Dev/ASP GPA/Build/Intermediates/PrecompiledHeaders/ASP GPA-Prefix-dslcralvpxxsabgjfbuugecfklcy/ASP GPA-Prefix.pch.d"36"6B43C839-2845-4DB0-AEDF-FE5FD1671141-
+
+CProcessPCH "/Users/NPai/Library/Developer/Xcode/DerivedData/ASP_GPA-ftcqauqaacnrfubtmcxnycjiowac/Index/PrecompiledHeaders/ASP GPA-Prefix-cdcvetpnsoxktebvuivikhgupkkm_ast/ASP GPA-Prefix.pch.pth" "ASP GPA/ASP GPA-Prefix.pch" normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app"
+s382462454.600075
+e382462454.605690
+r1
+xTouch
+x/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Touch /Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app9bac99f6e9cbb641^6f0e9bf6e9cbb641^---0#0#0#--410"Touch "Build/Products/Debug-iphonesimulator/ASP GPA.app"    cd "/Users/NPai/Documents/App Dev/ASP GPA"    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/NPai/Documents/App Dev/ASP GPA/Build/Products/Debug-iphonesimulator/ASP GPA.app"36"CA140C3F-D907-4478-966D-35A8343260DC-
+
